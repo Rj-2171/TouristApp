@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".WaterActivity">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#47118e"
+                    android:text="LUDU WATERFALLS"
+                    android:textAlignment="center"
+                    android:textSize="40dp"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="306dp"
+                    android:src="@drawable/water" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="306dp"
+                    android:src="@drawable/water2" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="306dp"
+                    android:src="@drawable/water3" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="306dp"
+                    android:src="@drawable/water4" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:textColor="#238f1b"
+                    android:text="Ludu waterfall is located approx. 300 km from Bhubaneswar city. You can reach this location by hiring vehicle. The best route to visit this place is Kotagarh via Baliguda and Tumulibandha. This is the best route for picnic bus.
+It is a beautiful waterfall surrounded by green forest and hills. When you visit this location you can fill the beauty of nature. Kotagarh Sanctuary surround all over the waterfall.
+"/>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+
+
+

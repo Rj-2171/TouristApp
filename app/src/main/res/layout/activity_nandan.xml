@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NandanActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#47118e"
+                android:text="NANDANKANAN VAN"
+                android:textAlignment="center"
+                android:textSize="40dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="306dp"
+                android:src="@drawable/nandan" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="306dp"
+                android:src="@drawable/nandan2" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="306dp"
+                android:src="@drawable/nandan3" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="306dp"
+                android:src="@drawable/nandan4" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#238f1b"
+                android:text="Nandankanan Zoological Park(Odia: ନନ୍ଦନକାନନ ଜୀବ ଉଦ୍ୟାନ) is a 437-hectare (1,080-acre) zoo and botanical garden in Bhubaneswar, Odisha, India. Established in 1960, it was opened to the public in 1979 and became the first zoo in India to join World Association of Zoos and Aquariums (WAZA) in 2009. It also contains a botanical garden and part of it has been declared a sanctuary. Nandankanan, literally meaning The Garden of Heaven, is located near the capital city, Bhubaneswar, in the environs of the Chandaka forest, and includes the 134-acre (54 ha) Kanjia lake.
+
+A major upgrade was done in 2000 (after the damage caused by the super-cyclone of 1999 in coastal Odisha). More than 3.3 million visitors visit Nandankanan every year."/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+
+

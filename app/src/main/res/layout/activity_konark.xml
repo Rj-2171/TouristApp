@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".KonarkActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="KONARK TEMPLE"
+                android:textAlignment="center"
+                android:textColor="#47118e"
+                android:textSize="40dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="306dp"
+                android:src="@drawable/konark3" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="306dp"
+                android:src="@drawable/konark4" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Konark Sun Temple is a 13th-century CE sun temple at Konark about 35 kilometres (22 mi) northeast from Puri on the coastline of Odisha, India. The temple is attributed to king Narasingha deva I of the Eastern Ganga Dynasty about 1250 CE.
+
+Dedicated to the Hindu 'god Surya, what remains of the temple complex has the appearance of a 100-foot (30 m) high chariot with immense wheels and horses, all carved from stone. Once over 200 feet (61 m) high, much of the temple is now in ruins, in particular the large shikara tower over the sanctuary; at one time this rose much higher than the mandapa that remains. The structures and elements that have survived are famed for their intricate artwork, iconography, and themes, including erotic kama and mithuna scenes. Also called the Surya Devalaya, it is a classic illustration of the Odisha style of Architecture or Kalinga Architecture .
+"
+                android:textColor="#238f1b"
+                android:textSize="20dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="306dp"
+        android:src="@drawable/konark" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="306dp"
+        android:src="@drawable/konark2" />
+</LinearLayout>

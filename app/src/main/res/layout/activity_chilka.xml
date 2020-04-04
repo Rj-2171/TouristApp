@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".ChilkaActivity">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#47118e"
+                    android:text="CHILKA LAKE"
+                    android:textAlignment="center"
+                    android:textSize="40dp"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="306dp"
+                    android:src="@drawable/chilka" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="306dp"
+                    android:src="@drawable/chilka2" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="306dp"
+                    android:src="@drawable/chilka3" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="306dp"
+                    android:src="@drawable/chilka4" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:textColor="#238f1b"
+                    android:text="Chilika Lake is a brackish water lagoon, spread over the Puri, Khurda and Ganjam districts of Odisha state on the east coast of India, at the mouth of the Daya River, flowing into the Bay of Bengal, covering an area of over 1,100 km2. It is the largest coastal lagoon in India and the second largest coastal lagoon in the world after The New Caledonian barrier reef in New Caledonia.
+
+It is the largest wintering ground for migratory birds on the Indian sub-continent. The lake is home to a number of threatened species of plants and animals.
+
+The lake is an ecosystem with large fishery resources. It sustains more than 150,000 fisher–folk living in 132 villages on the shore and islands.
+
+The lagoon hosts over 160 species of birds in the peak migratory season. Birds from as far as the Caspian Sea, Lake Baikal, Aral Sea and other remote parts of Russia, Kirghiz steppes of Mongolia, Central and southeast Asia, Ladakh and Himalayas come here. These birds travel great distances; migratory birds probably follow much longer routes than the straight lines, possibly up to 12,000 km, to reach Chilika Lake."/>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>

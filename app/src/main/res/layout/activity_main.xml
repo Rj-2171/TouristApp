@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000"
+        android:text="WELCOME TO ORISSA "
+        android:textAlignment="center"
+        android:textColor="#ff9900"
+        android:textSize="40dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TOP PLACES TO VISIT"
+                android:textSize="30dp"
+                android:textColor="#b7127b"/>
+            <Button
+                android:id="@+id/b1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text='KONARK TEMPLE'
+                android:textSize="20dp"
+                android:background="#000"
+                android:textColor="#fff"/>
+
+            <Button
+                android:id="@+id/b2"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PURI BEACH"
+                android:textSize="20dp"
+                android:background="#000"
+                android:textColor="#fff"/>
+
+            <Button
+                android:id="@+id/b3"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="JAGARNATH TEMPLE"
+                android:textSize="20dp"
+                android:background="#000"
+                android:textColor="#fff"/>
+
+            <Button
+                android:id="@+id/b4"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ASHOKA PILLAR"
+                android:textSize="20dp"
+                android:background="#000"
+                android:textColor="#fff"/>
+
+            <Button
+                android:id="@+id/b5"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CHILKA LAKE"
+                android:textSize="20dp"
+                android:background="#000"
+                android:textColor="#fff"/>
+
+            <Button
+                android:id="@+id/b6"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="LUDU WATERFALLS"
+                android:textSize="20dp"
+                android:background="#000"
+                android:textColor="#fff"/>
+
+            <Button
+                android:id="@+id/b7"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NANDANKANAN VAN"
+                android:textSize="20dp"
+                android:background="#000"
+                android:textColor="#fff"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="306dp"
+        android:src="@drawable/orissa" />
+
+</LinearLayout>

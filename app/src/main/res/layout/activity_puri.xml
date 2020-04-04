@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PuriActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#47118e"
+                android:text="PURI BEACH"
+                android:textAlignment="center"
+                android:textSize="40dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="306dp"
+                android:src="@drawable/puri" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="306dp"
+                android:src="@drawable/puri2" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="306dp"
+                android:src="@drawable/puri3" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="306dp"
+                android:src="@drawable/puri4" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#238f1b"
+                android:text="Puri Beach is a beach in the city of Puri in the state of Odisha, India. It is on the shore of the Bay of Bengal. It is known for being a tourist attraction and a Hindu sacred place.The beach is the site of the annual Puri Beach Festival, which is co-sponsored by the Indian Ministry of Tourism, the city of Odisha, the Development Commissioner of Handicrafts, and the Eastern Zonal Cultural Center, Kolkata.The beach hosts sand art displays, including work by international award-winning local sand artist Sudarshan Pattnaik. "/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context=".AshokaActivity">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:layout_editor_absoluteX="8dp"
+    tools:layout_editor_absoluteY="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#47118e"
+            android:text="ASHOKA PILLAR"
+            android:textAlignment="center"
+            android:textSize="40dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="306dp"
+            android:src="@drawable/ashok" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="306dp"
+            android:src="@drawable/ashok2" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="306dp"
+            android:src="@drawable/ashok3" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="306dp"
+            android:src="@drawable/ashok4" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#238f1b"
+            android:text="Dhauli hill is presumed to be the area where the Kalinga War was fought.
+
+The Rock Edicts found here include Nos. I-X, XIV and two separate Kalinga Edicts. In Kalinga Edict VI, he expresses his concern for the 'welfare of the whole world'. The rock-cut elephant above the Edicts is the earliest Buddhist sculpture of Odisha. The stone elephant shows the animal's foreparts only, though it has a fine sense of form and movement. It is considered as one of the few remains of Mauryan art.
+
+Ashoka had a special weakness for Dhauli, where the battle was fought. The Daya river is said to have turned red with the blood of the many deceased after the battle, and enabled Ashoka to realize the magnitude of horror associated with war. He saw to it that Dhauli became an important centre of Buddhist activities. He built several chaityas, stupas and pillars there. He got abodes excavated for the recluse, instructions inscribed for officials, expounded the main principles of dandaniti (strict enforcement of laws) for the public, provided special status to his new kingdom including the stupas at Dhauli.
+
+On the top of the hill, a dazzling white peace pagoda has been built by the Japan Buddha Sangha and the Kalinga Nippon Buddha Sangha in the 1970s.
+
+The nearby region also houses Ashokan edicts and possibly a Stupa at Bhaskareshwar temple at Tankapani road as arglars. The Dhauligiri hills also has an ancient Shiva temple which is the place for mass gathering during Shiva Ratri Celebrations. "/>
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>
+
+
+
+

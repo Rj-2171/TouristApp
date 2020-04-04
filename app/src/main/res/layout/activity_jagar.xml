@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".JagarActivity">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#47118e"
+                    android:text="JAGARNATH TEMPLE"
+                    android:textAlignment="center"
+                    android:textSize="40dp"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="306dp"
+                    android:src="@drawable/jagar" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="306dp"
+                    android:src="@drawable/jagar2" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="306dp"
+                    android:src="@drawable/jagar3" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="306dp"
+                    android:src="@drawable/jagar4" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:textColor="#238f1b"
+                    android:text="The Shree Jagannath Temple of Puri is an important Hindu temple dedicated to Lord Jagannath, a form of lord Maha Vishnu , located on the eastern coast of India, at Puri in the state of Odisha. The temple is an important pilgrimage destination The present temple was rebuilt from the 10th century onwards, on the site of an earlier temple, and begun by King Anantavarman Chodaganga Deva, first of the Eastern Ganga dynasty.
+
+The Puri temple is famous for its annual Ratha yatra, or chariot festival, in which the three principal deities are pulled on huge and elaborately decorated temple cars. These gave their name to the English term Juggernaut. Unlike the stone and metal icons found in most Hindu temples, the image of Jagannath is made of wood and is ceremoniously replaced every twelve or nineteen years by an exact replica.
+
+The temple is sacred to all Hindus and especially in those of the Vaishnava traditions. Many great saints, such as Ramananda and Ramanuja were closely associated with the temple. Ramanuja established the Emar Mutt near the temple and the Govardhan Mutt, which is the seat of one of the four Shankaracharyas. It is also of particular significance to the followers of the Gaudiya Vaishnavism whose founder Chaitanya Mahaprabhu, was attracted to the deity, Jagannath, and lived in Puri for many years"/>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+
